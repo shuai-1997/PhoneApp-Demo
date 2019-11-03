@@ -1,0 +1,134 @@
+footer{
+	margin-top: .2rem ;
+	padding: .2rem 0;
+	
+	border-top: .02rem solid #ebebeb;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+footer ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+footer ul li:nth-child(1) a{
+	background: url(../images/icom_home.jpg) no-repeat center top;
+	background-size: 90%;
+}
+footer ul li:nth-child(2) a{
+	background: url(../images/icon_list.jpg) no-repeat center top;
+	background-size: 90%;
+}
+footer ul li:nth-child(3) a{
+	background: url(../images/icon_car.jpg) no-repeat center top;
+	background-size: 65%;
+}
+footer ul li:nth-child(4) a{
+	background: url(../images/my_32.png) no-repeat center top;
+	background-size: 100%;
+	color: red;
+}
+footer ul li:nth-child(5) a{
+	background: url(../images/icon_message.jpg) no-repeat center top;
+	background-size: 90%;
+}
+footer ul a{
+	display: block;
+	text-decoration: none;
+	color: #66676f;
+	padding-top:.5rem ;
+}
+#lump{
+	display: flex;
+	align-items: center;
+	background: url(../images/timg.jpg) no-repeat center;
+	background-size:100% ;
+}
+#img{
+	
+	padding: .3rem;
+	flex: 2;
+}
+#name{
+	flex: 3;
+}
+#lump>p{
+	flex: 2;
+	color: #64676E;
+}
+#img img{
+	border-radius: .2rem;
+	width: 100%;
+}
+#name p:nth-child(2){
+	font-size: .2rem;
+}
+#lump-2 ul{
+	display: flex;
+	justify-content: space-between;
+	background:rgba(0,0,0,.8);
+	padding: .3rem;
+	color: #FFFFFF;
+	font-size: .24rem;
+}
+nav ul{
+	display: flex;
+	/*justify-content: space-between;*/
+	margin-bottom: .2rem;
+	padding: .3rem;
+	flex-wrap:wrap ;
+}
+nav ul:nth-child(1) li{
+	flex: 1;
+	padding-top: 1rem;
+	text-align: center;
+	
+}
+nav ul:nth-child(1) li:nth-child(1){
+	background: url(../images/my_03.png) no-repeat center;
+	background-size: 50%;
+}
+nav ul:nth-child(1) li:nth-child(2){
+	background: url(../images/my_05.png) no-repeat center;
+	background-size: 50%;
+}
+nav ul:nth-child(1) li:nth-child(3){
+	background: url(../images/my_07.png) no-repeat center;
+	background-size: 50%;
+}
+nav ul:nth-child(1) li:nth-child(4){
+	background: url(../images/my_09.png) no-repeat center;
+	background-size: 50%;
+}
+nav ul:nth-child(2) li{
+	padding-left: 1.1rem;
+	width: 50%;
+	padding-top:.3rem ;
+	padding-bottom:.3rem ;
+}
+nav ul:nth-child(2) li:nth-child(1){
+	background: url(../images/my_16.png)no-repeat center left;
+	background-size: 30%;
+}
+nav ul:nth-child(2) li:nth-child(2){
+	background: url(../images/my_19.png) no-repeat center left;
+	background-size: 30%;
+}
+nav ul:nth-child(2) li:nth-child(3){
+	background: url(../images/my_23.png) no-repeat center left;
+	background-size: 30%;
+}
+nav ul:nth-child(2) li:nth-child(4){
+	background: url(../images/my_24.png) no-repeat center left;
+	background-size: 30%;
+}
+nav ul:nth-child(2) li:nth-child(5){
+	background: url(../images/my_27.png) no-repeat center left;
+	background-size: 30%;
+}
+nav ul:nth-child(2) li:nth-child(6){
+	background: url(../images/my_28.png) no-repeat center left;
+	background-size: 30%;
+}

@@ -1,0 +1,61 @@
+#h-search span{
+	background: url(../images/sou.gif) no-repeat center;
+	background-size: 45%;
+}
+#h-left{
+	background: url(../images/category/g_back.jpg) no-repeat center ;
+	background-size: 25%;
+}
+#h-right{
+	background: url(../images/category/g_message.jpg)  no-repeat center ;
+	background-size: 45%;
+}
+#banner img{
+	width: 100%;
+}
+#body{
+	display: flex;
+}
+#body-left{
+	flex: 3;
+}
+#body-right{
+	flex: 7;
+}
+#body-left ul li{
+	height: 1rem;
+	line-height: 1rem;
+	padding: 0 .3rem;
+	border-bottom: .01rem solid #bbb;
+	border-right:.01rem solid #ddd;
+	background: #efefef;
+	cursor: pointer;
+}
+#body-left ul li:nth-child(1){
+	color: #E13E3F;
+	background: #fff;
+	border: none;
+}
+#body-right ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#body-right ul li {
+	padding: .3rem;
+}
+#body-right ul li img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#body-right ul li span{
+	display: block;
+	color: #a7a8ad;
+}
+#body-right h5{
+	font-size: .3rem;
+	color: #a7a8ad;
+	font-weight: normal;
+	padding: .1rem 0;
+}

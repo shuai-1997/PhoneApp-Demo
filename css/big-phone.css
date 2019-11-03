@@ -1,0 +1,99 @@
+header{
+	background: #F7F7F7;
+}
+#h-search{	
+	background: #FFFFFF;
+}
+#h-search input::-webkit-input-placeholder{
+	font-size: 0.2rem;
+	color: #ccc;
+}
+#h-search input::-ms-input-placeholder{
+	font-size: 0.2rem;
+	color: #ccc;
+}
+#h-search  input::-moz-placeholder {
+font-size: 0.2rem;
+color: #ccc;
+}
+#h-search input{
+color: #ccc;
+	
+}
+#h-search span{
+	
+	background: url(../images/list/pic_list_search.jpg) no-repeat center;
+	background-size: 50%;
+}
+#h-left{
+	background: url(../images/list/pic_list_back.jpg) no-repeat center;
+	background-size: 40%;
+	
+}
+#h-right{
+	background: url(../images/list/pic_list_list.jpg)no-repeat center;
+	background-size: 40%;
+	
+}
+nav{
+	padding: .2rem 0;
+	border-bottom: #ccc .01rem solid;
+	border-top: #ccc .01rem solid;
+}
+nav  ul{
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li{
+	font-size: .32rem;
+}
+nav ul li span{
+	font-size: .24rem;
+	line-height:0.3em;
+	display: inline-block;
+}
+#body  ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+p{
+	word-wrap: break-word;
+}
+#body li{
+	flex: 1;
+	width: 50%;
+	padding: .1rem;
+	padding-top: .5rem;
+	
+}
+#body li img{
+	display: block;
+	width: 100%;
+	border: .01rem solid #ccc;
+	padding: .2rem;
+}
+#body li p:nth-child(2){
+	font-size:.3rem ;
+	color: #000000;
+}
+#body li p:nth-child(3){
+	display: flex;
+	justify-content: space-between;
+	font-size:.28rem ;
+	color: red;
+}
+#body li p:nth-child(3) span{
+	display: block;
+	font-size:.28rem ;
+	color: red;
+}
+#body li p:nth-child(3) span:nth-child(2){
+	font-size:.2rem ;
+	padding: .05rem;
+	border: .01rem red solid;
+}
+#body li p:nth-child(4){
+	font-size:.24rem ;
+	color: #CCCCCC;
+}

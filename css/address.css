@@ -1,0 +1,44 @@
+#h-right{
+	background: none;
+	line-height: 1rem;
+}
+#boby ul{
+	
+}
+#boby li{
+	padding: .2rem 0.3rem;
+	margin-bottom: .2rem;
+}
+#boby li p:nth-child(1){
+	font-size: .30rem;
+	padding-bottom: .1rem;
+}
+#boby li p:nth-child(2){
+	
+	font-size: .24rem;
+	
+}
+#boby li p:nth-child(1)  span{
+	float: right;
+	padding-right: 1rem;
+	background: url(../images/pen.png) no-repeat center right;
+	background-size:20% ;
+}
+#boby li p:nth-child(2) span{
+	padding: .03rem;
+	font-size: .2rem;
+	color: red;
+	border: red solid .01rem;
+	border-radius: .02rem;
+	margin-right:.1rem ;
+}
+footer button{
+	padding: 0 0.3rem;
+	width: 100%;
+	height: 1rem;
+	font-size: .3rem;
+	color: #FFFFFF;
+	background:#008000 ;
+	border: none;
+	border-radius: .2rem;
+}

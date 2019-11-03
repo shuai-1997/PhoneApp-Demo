@@ -1,0 +1,38 @@
+
+
+
+#body li{
+	padding: .2rem  .5rem;
+	font-size:.24rem ;
+}
+#body ul li:nth-child(1){
+	background: url(../images/list-style_03.png) no-repeat left;
+	background-size:7% ;
+} 
+#body ul li:nth-child(2){
+	background: url(../images/list-style_06.png) no-repeat left;
+	background-size:7% ;
+} 
+#body ul li:nth-child(3){
+	background: url(../images/list-style_08.png) no-repeat left;
+	background-size:7% ;
+} 
+#body ul li:nth-child(4){
+	background: url(../images/list-style_10.png) no-repeat left;
+	background-size:7% ;
+} 
+#body  input{
+	height: .4rem;
+	width:4rem;
+	border: none;
+}
+button{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	height: .5rem;
+	font-size: .24rem;
+	background: #b2a8a7 ;
+	color: #FFFFFF;
+	border-radius: 0.1rem;
+}

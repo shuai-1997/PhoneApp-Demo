@@ -1,0 +1,139 @@
+#h-left{
+	background: url(../images/di_03.png) no-repeat center;
+	background-size: 50%;
+}
+#h-right{
+	background: url(../images/di_05.png) no-repeat center;
+	background-size: 50%;
+	
+}
+.gt{
+	background: url(../images/detail/detail_icon1.jpg) no-repeat center right;
+}
+.moren{
+	color: red;
+	font-size: .20rem;
+	border: red solid .01rem;
+	margin-left: .2rem;
+	padding: .05rem;
+	border-radius: .03rem;
+}
+#address p:nth-child(1){
+	font-size: 0.34rem;
+	display: flex;
+	justify-content: space-between;
+	padding: .3rem 0;
+	
+}
+#address p:nth-child(2){
+	font-size: 0.24rem;
+	color: #A4A5A9;
+	padding-right: 1rem;
+}
+#address{
+	padding: 0 .3rem;
+}
+#song,#youhui{
+	padding:0 0.3rem ;
+	margin: .2rem 0;
+}
+#song label,#youhui label{
+	font-size: .24rem;
+}
+
+#song li,#youhui li, #zongji li{
+	display: flex;
+	justify-content: space-between;
+	padding: .15rem 0;
+	padding-right: .2rem;
+	border-bottom: solid #CCCCCC .01rem ;
+	
+}
+option{
+	font-size: .24rem;
+}
+#song li select,#youhui li select,#zongji li select{
+	height: 100%;
+	border: none;
+	font-size: .24rem;
+	
+	color: #ccc;
+}
+#song li button{
+	height: 100%;
+	font-size: .24rem;
+	padding: 0 .1rem;
+	margin: 0 .1rem;
+	border-radius: .05rem;
+	background: #FFFFFF;
+	border: solid #B6B7BA .01rem;
+	color: #B6B7BA;
+}
+.activity-button{
+	border: solid red .01rem !important;
+	color: red !important;
+}
+#img{
+	display: flex;
+	padding: .3rem;
+}
+#img li{
+	flex: 1;
+	margin: .05rem;
+	border: solid #CCCCCC .01rem ;
+	padding:  .3rem;
+}
+#img li img{
+	width: 100%;
+}
+#xiaoji{
+	display: flex;
+	justify-content: space-between;
+	border-top:  solid #CCCCCC .01rem ;
+	padding: .2rem 0.3rem;
+	font-size: .24rem;
+	color:#66676F ;
+}
+#xiaoji span{
+	color: red;
+}
+#zongji {
+	padding:0 0.3rem ;
+	margin-top: .2rem ;
+}
+#zongji li{
+	display: flex;
+	justify-content: space-between;
+	font-size: .24rem;
+}
+#zongji li span{
+	color: red;
+}
+footer{
+	margin-top: .2rem;
+	padding:.1rem 0.3rem ;
+	display: flex;
+	justify-content: space-between;
+	color: #96969B;
+}
+#pay{
+	color: #96969B;
+	font-size: .24rem;
+}
+#pay p:nth-child(1) span{
+	color: red;
+	font-weight: 900;
+}
+#pay p:nth-child(2){
+	color: #CCCCCC;
+	font-size: .18rem;
+}
+#btn button{
+	height: 100%;
+	color: #FFf;
+	font-size:.26rem ;
+	background: red;
+	border: none;
+	padding: 0 0.2rem;
+	border-radius: .05rem;
+}

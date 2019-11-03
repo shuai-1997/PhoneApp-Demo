@@ -1,0 +1,149 @@
+#reminder{
+	font-size:.24rem ;
+	/*text-align: center;*/
+	padding: .2rem;
+}
+#reminder a{
+	color: red;
+}
+#body{
+	margin-top: .2rem;
+	padding:0  0.2rem;
+}
+#body .li-top{
+	display: flex;
+	justify-content: space-between;
+	padding: .1rem 0;
+}
+/*复选框样式*/
+ .checkBox{
+	position: relative;
+	
+}
+ .checkBox input{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	width: .3rem;
+	height: .3rem;
+}
+ .chackbox-ico{
+ 	display: inline-block;
+ 	font-size: .24rem;
+
+ 	border: .01rem solid red;
+ 	border-radius: 50%;
+ 	padding:0rem .06rem;
+ 	z-index: 1;
+	color:red ;
+}
+ .checkBox label{
+ 	display: inline-block;
+ 	border: .01rem solid red;
+	color:red ;
+ 	font-size: .24rem;
+ 	margin-left: .2rem;
+ 	border-radius: 10%;
+ 	padding: .02rem;
+ }
+.li-top>p{
+	font-size: .32rem;
+	color: red;
+}
+.li-top .li-button button{
+	width: .35rem;
+	height: .35rem;
+	font-size: .24rem;
+	vertical-align: top;
+	background: #FFFFFF;
+	
+}
+.li-button button:nth-child(1){
+	border-top-left-radius: 20% ;
+	border-bottom-left-radius: 20%;
+	
+}
+.li-button button:nth-child(3){
+	border-bottom-right-radius:20% ;
+	border-top-right-radius: 20% ;
+}
+.li-button input{
+	width: .4rem;
+	height: .35rem;
+	vertical-align: top;
+}
+.activity-button{
+	background: red !important;
+	color: #FFFFFF;
+}
+#body h3{
+	font-weight: normal;
+	font-size: .26rem;
+	padding: .1rem 0;
+	border-bottom: .01rem solid #ccc;
+}
+.li-body{
+	display: flex;
+	padding:0.1rem 0;
+}
+.li-img{
+	flex: 1;
+	border: .01rem solid #ccc;;
+}
+.li-text{
+	flex: 4;
+}
+.li-text p:nth-child(1){
+	font-size: .28rem;
+	padding-left: .2rem;
+}
+.li-text p:nth-child(2) {
+	font-size: .24rem;
+	padding-left: .2rem;
+	padding-top: .2rem;
+	display: flex;
+	justify-content: space-between;
+	color: #CCCCCC;
+}
+.li-text p:nth-child(2) span{
+	display: block;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: .2rem;
+	margin-top:.2rem ;
+}
+#foot-left{
+	display: flex;
+}
+
+#foot-left .chackbox-ico{
+ 	
+ 	
+
+ 	border: .01rem solid green;
+ 	
+	color:green ;
+}
+#fukuan{
+	margin-left: .2rem;
+}
+#fukuan p:nth-child(1){
+	font-size: .24rem;
+}
+#fukuan p:nth-child(1) span:nth-child(2){
+	color: red;
+}
+#fukuan p:nth-child(2){
+	font-size: .18rem;
+	color: #ccc;
+}
+#btn button{
+	width: 2rem;
+	height: 100%;
+	background: red;
+	color: #FFFFFF;
+	border: none;
+}
